@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, ScrollView, Text, TextInput } from "react-native";
-import TeacherItem, { Teacher, TeacherItemProps } from "../../components/TeacherItem";
+import TeacherItem, { Teacher } from "../../components/TeacherItem";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
 import AsyncStorage from "@react-native-community/async-storage";
 import {Feather} from "@expo/vector-icons";
